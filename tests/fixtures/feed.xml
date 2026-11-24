@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Portfolio Dev Journal</title>
+    <link>https://example.org/</link>
+    <description>Fixture feed with incomplete and repeated entries.</description>
+    <item>
+      <title>Member Roles &amp; Polls</title>
+      <link>/posts/member-roles</link>
+      <guid isPermaLink="false">roles-1</guid>
+    </item>
+    <item>
+      <title>Duplicate publisher ID</title>
+      <link>https://example.org/posts/role-copy</link>
+      <guid isPermaLink="false">roles-1</guid>
+    </item>
+    <item>
+      <title>Duplicate article URL</title>
+      <link>https://example.org/posts/member-roles#section</link>
+      <guid isPermaLink="false">roles-2</guid>
+    </item>
+    <item>
+      <link>https://example.org/posts/feed-updates</link>
+    </item>
+    <item>
+      <title>Permalink-only entry</title>
+      <guid>https://example.org/posts/permalink</guid>
+    </item>
+    <item>
+      <title>Missing link</title>
+      <guid isPermaLink="false">opaque-id</guid>
+    </item>
+    <item>
+      <title>Unsupported link</title>
+      <link>javascript:alert(1)</link>
+    </item>
+  </channel>
+</rss>

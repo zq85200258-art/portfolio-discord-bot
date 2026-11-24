@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:base="https://example.org/dev/">
+  <title>Dev Log</title>
+  <entry xml:base="posts/">
+    <title type="html">Release &lt;em&gt;Notes&lt;/em&gt; &amp;amp; Updates</title>
+    <id>tag:example.org,2026:release</id>
+    <link rel="self" href="release.xml" />
+    <link rel="alternate" href="release" />
+  </entry>
+</feed>

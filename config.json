@@ -1,0 +1,19 @@
+{
+  "sync_guild_id": null,
+  "welcome": {
+    "channel_id": null,
+    "title": "Welcome to {server}!",
+    "message": "Hi {mention}! Take a look around and use `/role` to pick your interests."
+  },
+  "self_assignable_role_ids": [],
+  "rss": {
+    "interval_seconds": 300,
+    "database_path": "data/subscriptions.sqlite3"
+  },
+  "logging": {
+    "level": "INFO",
+    "file_path": "logs/portfolio-bot.log",
+    "max_bytes": 1048576,
+    "backup_count": 3
+  }
+}
